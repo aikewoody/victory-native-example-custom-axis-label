@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "importsNotUsedAsValues": "error",
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    },
+    "resolveJsonModule": true,
+    "strict": true
+  },
+  "extends": "expo/tsconfig.base",
+}
